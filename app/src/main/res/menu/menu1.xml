@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+<item
+    android:id="@+id/one"
+    android:title="One"
+    android:icon="@drawable/ic_one"
+    app:showAsAction="ifRoom"
+    android:orderInCategory="1"/>
+<item
+    android:id="@+id/two"
+    android:title="Two"
+    android:icon="@drawable/ic_two"
+    app:showAsAction="ifRoom"
+    android:orderInCategory="2"/>
+<item
+    android:id="@+id/three"
+    android:title="Three"
+    android:icon="@drawable/ic_three"
+    app:showAsAction="ifRoom"
+    android:orderInCategory="3"/>
+</menu>
